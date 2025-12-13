@@ -62,6 +62,25 @@ Advanced-Console-Calculator/
 ```
 ---
 
+## ▶️ How to Run
+
+1. **Clone the repository** or download the project to your local machine.  
+
+2. **Open a terminal** in the project root directory.  
+
+3. **Compile all Java files**:
+
+```bash
+javac calculator/*.java service/*.java ui/*.java Main.java
+```
+> This compiles all classes and keeps the package structure intact.
+
+4. Run the program:
+```bash
+java Main
+```
+---
+
 ## 💻 Console Output Example
 ```
 ===== ADVANCED CONSOLE CALCULATOR =====
