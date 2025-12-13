@@ -8,7 +8,7 @@ public class CalculatorService {
     private static Calculator cal = new BasicCalculator();
     private static String[] operator = new String[] {" + ", " - ", " x ", " ÷ ", " % ", " ^ ", " √"};
 
-    static void result(double v1, double v2, int n) {
+    private static void result(double v1, double v2, int n) {
         System.out.print("\nResult: " + v1 + operator[n] + v2 + " = ");
     }
 
