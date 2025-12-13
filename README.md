@@ -44,7 +44,9 @@ A **Java console-based calculator** that supports both **basic** and **scientifi
 
 ## 📁 Project Structure
 ```
-src/
+AdvancedConsoleCalculator/
+├─ Assets/
+│ └─ uml.png
 ├─ calculator/
 │ ├─ Calculator.java
 │ ├─ BasicCalculator.java
@@ -54,7 +56,9 @@ src/
 ├─ ui/
 │ ├─ Menu.java
 │ └─ InputHandler.java
-└─ Main.java
+├─ Main.java
+├─ README.md
+└─ .gitignore
 ```
 ---
 
