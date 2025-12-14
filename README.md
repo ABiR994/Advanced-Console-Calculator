@@ -125,7 +125,7 @@ Thank you for using Advanced Console Calculator. Goodbye!
 
 ## 📊 UML Diagram
 
-![UML Diagram](Assets/uml.png)
+![UML Diagram](assets/uml.png)
 > UML diagram showing the class structure and relationships of the calculator project.
  
 ---
