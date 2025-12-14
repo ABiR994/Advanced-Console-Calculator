@@ -45,7 +45,7 @@ A **Java console-based calculator** that supports both **basic** and **scientifi
 ## 📁 Project Structure
 ```
 Advanced-Console-Calculator/
-├─ Assets/
+├─ assets/
 │ └─ uml.png
 ├─ calculator/
 │ ├─ Calculator.java
