@@ -1,6 +1,6 @@
 package calculator;
 
-public class BasicCalculator extends Calculator {
+public abstract class BasicCalculator extends Calculator {
     public BasicCalculator() {
         super();
     }
@@ -36,15 +36,5 @@ public class BasicCalculator extends Calculator {
     @Override
     public double modulo() {
         return (this.value1 % this.value2);
-    }
-
-    @Override
-    public double pwr() {
-        return 0;
-    }
-
-    @Override
-    public double sqrt() {
-        return 0;
     }
 }

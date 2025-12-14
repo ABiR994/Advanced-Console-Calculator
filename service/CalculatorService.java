@@ -5,7 +5,7 @@ import ui.*;
 
 public class CalculatorService {
 
-    private static Calculator cal = new BasicCalculator();
+    private static Calculator cal = new ScientificCalculator();
     private static String[] operator = new String[] {" + ", " - ", " x ", " ÷ ", " % ", " ^ ", " √"};
 
     private static void result(double v1, double v2, int n) {
@@ -15,7 +15,7 @@ public class CalculatorService {
     public static void addition(int n) {
         double v1 = InputHandler.input();
         double v2 = InputHandler.input();
-        cal = new BasicCalculator(v1, v2);
+        cal = new ScientificCalculator(v1, v2);
 
         result(v1, v2, n);
         System.out.println(cal.add());
@@ -24,7 +24,7 @@ public class CalculatorService {
     public static void subtraction(int n) {
         double v1 = InputHandler.input();
         double v2 = InputHandler.input();
-        cal = new BasicCalculator(v1, v2);
+        cal = new ScientificCalculator(v1, v2);
 
         result(v1, v2, n);
         System.out.println(cal.subtract());
@@ -33,7 +33,7 @@ public class CalculatorService {
     public static void multiplication(int n) {
         double v1 = InputHandler.input();
         double v2 = InputHandler.input();
-        cal = new BasicCalculator(v1, v2);
+        cal = new ScientificCalculator(v1, v2);
 
         result(v1, v2, n);
         System.out.println(cal.multiply());
@@ -44,7 +44,7 @@ public class CalculatorService {
         double v2 = InputHandler.input();
 
         if(v2 != 0) {
-            cal = new BasicCalculator(v1, v2);
+            cal = new ScientificCalculator(v1, v2);
             result(v1, v2, n);
             System.out.println(cal.divide());
         } else {
@@ -57,7 +57,7 @@ public class CalculatorService {
         double v2 = InputHandler.input();
 
         if(v2 != 0) {
-            cal = new BasicCalculator(v1, v2);
+            cal = new ScientificCalculator(v1, v2);
             result(v1, v2, n);
             System.out.println(cal.modulo());
         } else {
